@@ -1,0 +1,31 @@
+{
+    "name": "gubler/date-range",
+    "description": "Simple library for creating a date range and performing operations on it",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Daryl Gubler",
+            "email": "daryl@dev88.co"
+        }
+    ],
+    "require": {
+        "php": "^5.5|^7.0"
+    },
+    "require-dev": {
+        "phpunit/php-code-coverage": "^2.1.0",
+        "phpunit/phpunit": "^4.8",
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gubler\\DateRange\\": "src/Gubler/DateRange"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Gubler\\DateRange\\": "tests/Gubler/DateRange"
+        }
+    }
+}
